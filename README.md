@@ -15,7 +15,7 @@ Team Members:
 
 - Evaluated a variety of a cloud architectures for the temparature data pipeline and prediction services. A quick overview can be found [here](azure_architectures_solution.pdf).
 
-- Created a user interaction concept where the line manager responsible for the affected machines is notified by an email such as [this](./email/) that a given machine is in need of maintenance and why this is important.
+- Created a user interaction concept where the line manager responsible for the affected machines is notified by an email such as [this](./client_email/) that a given machine is in need of maintenance and why this is important.
 
 - Data exploration, both by exporting the data to influxDB and and exploring it in Grafana. Additionally the data was transformed and processed with pandas dataframes to look for deeper patterns in the data. This work can be found [here](./data_exploration/).
 
