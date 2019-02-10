@@ -15,6 +15,8 @@ Team Members:
 
 - Evaluated a variety of a cloud architectures for the temparature data pipeline and prediction services. A quick overview can be found [here](azure_architectures_solution.pdf).
 
+- As you can see in the last page, from the azure services, we attached the Azure Blob Storage to Azure Databricks, deployed a model from Databricks to an Azure Container Instance and used static [files](./statistics/) to render the statistics and the model from the Azure Container Instance.
+
 - Created a user interaction concept where the line manager responsible for the affected machines is notified by an email such as [this](./client_email/) that a given machine is in need of maintenance and why this is important.
 
 - Data exploration, both by exporting the data to influxDB and and exploring it in Grafana. Additionally the data was transformed and processed with pandas dataframes to look for deeper patterns in the data. This work can be found [here](./data_exploration/).
