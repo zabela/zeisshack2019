@@ -1,0 +1,175 @@
+body, html {
+  background: rgb(255, 255, 255);
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body h1, html h1 {
+  text-align: center;
+  color: #2782b0;
+  font-family: "Arial", arial, sans-serif;
+}
+body section, html section {
+  background: white;
+  margin: 125px auto 30px;
+  width: 810px;
+  padding: 20px;
+  height: 200px;
+  padding-top: 50px;
+  border: 2px dashed rgba(0, 0, 0, 0.4);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border: solid white;
+}
+.wrapper {
+	width: 100%;
+	table-layout: fixed;
+}
+.wrapper-inner {
+	width: 100%;
+	background-color: #eee;
+	max-width: 670px;
+	Margin: 0 auto;
+}
+.back {
+  width: 90%;
+  padding-top:20px;
+  margin: 30px auto;
+  background-color: #eee;
+  border-radius: 5px;
+
+}
+.head{
+  margin-top: 0px;
+  padding-top: 5px;
+}
+.btn {
+  font-size: 15px;
+  float: right;
+  padding-right:150px;
+  margin-right: 70px;
+  margin-top:10;
+  padding-top:10;
+  font-weight: 600;
+  background: #2782b0;
+  color: #FFF;
+  text-decoration: none;
+  padding: 9px 16px;
+  border-radius: 28px;
+}
+
+
+@-moz-keyframes fill {
+  0% {
+    height: 0%;
+  }
+  60% {
+    height: 110%;
+  }
+  70% {
+    height: 95%;
+  }
+  80% {
+    height: 105%;
+  }
+  100% {
+    height: 100%;
+  }
+}
+@-webkit-keyframes fill {
+  0% {
+    height: 0%;
+  }
+  60% {
+    height: 110%;
+  }
+  70% {
+    height: 95%;
+  }
+  80% {
+    height: 105%;
+  }
+  100% {
+    height: 100%;
+  }
+}
+@keyframes fill {
+  0% {
+    height: 0%;
+  }
+  60% {
+    height: 110%;
+  }
+  70% {
+    height: 95%;
+  }
+  80% {
+    height: 105%;
+  }
+  100% {
+    height: 100%;
+  }
+}
+.box {
+  width: 200px;
+  height: 150px;
+  margin-top:50px;
+  position: relative;
+  display: inline-block;
+}
+.box .container {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: 3;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  padding-top: 15px;
+}
+.box .container .number {
+  font-size: 50px;
+  margin-top: 25px;
+}
+.box .fill {
+  z-index: 2;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  padding-top:80px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.box .fill.speed1 {
+  -moz-animation: fill 1s ease-out;
+  -webkit-animation: fill 1s ease-out;
+  animation: fill 1s ease-out;
+}
+.box .fill.speed2 {
+  -moz-animation: fill 1.1s ease-out;
+  -webkit-animation: fill 1.1s ease-out;
+  animation: fill 1.1s ease-out;
+}
+.box .fill.speed3 {
+  -moz-animation: fill 1.2s ease-out;
+  -webkit-animation: fill 1.2s ease-out;
+  animation: fill 1.2s ease-out;
+}
+.box .fill.speed4 {
+  -moz-animation: fill 1.3s ease-out;
+  -webkit-animation: fill 1.3s ease-out;
+  animation: fill 1.3s ease-out;
+}
+.logo {
+  max-width: 150px;
+	Margin:  0 auto;
+  display: block ;
+  position: relative;
+  padding-top: 10%;
+}
